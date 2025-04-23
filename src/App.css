@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  scrollbar-width:thin;
+  scrollbar-color: #ffae00fa #FFCC00  ;
+
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.profile .Profession{
+  color:rgb(197, 197, 197);
+letter-spacing: 4px;
+}
+ul .sideworks{
+    margin-top: 1.8vh;
+      margin-left: -30px ;
+      font-size: 2vh;
+      letter-spacing: 1.5px;
+      color: rgb(182, 180, 180);
+  }
+  li:hover{
+    color: white;
+  }
+  li{
+    font-size: 14px;
+    margin-left: 18px;
+
+  }
+.line{
+  background-color: #4d4d4d;
+}
+.title {
+  font-size: 2.8rem; /* Equivalent to text-2xl */
+  font-family: 'Courier New', monospace; /* Equivalent to font-mono */
+  margin-top:5vw; /* Equivalent to -mt-8 */
+  text-transform: uppercase; /* Equivalent to uppercase */
+  font-weight: 500;
+  letter-spacing: 0.1em; /* Equivalent to tracking-widest */
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(white, black);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.SkillTitle {
+  font-size: 2rem; /* Adjust as needed */
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  background: linear-gradient(to right, rgb(166, 166, 166), rgba(255, 255, 255, 0.039)); /* Left to right gradient */
+  -webkit-background-clip: text; /* Clips the gradient to the text */
+  -webkit-text-fill-color: transparent; /* Makes the text transparent so gradient is visible */
+  display: inline-block; /* Ensures proper rendering */
+}
+.profileParent {
+  /* background-color:#1e1c2a; */
+  height: 15vh;
+  position:fixed;
+  background: rgba(252, 252, 252, 0.103);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+}
+.phoneProfession{
+  display: none;
+}
+.menu{
+  display: none;
+}
+.MainDiv .myName{
+  color: rgb(208, 208, 208);
+}
+@media (max-width: 640px) {
+  .MainDiv{
+    margin-left: -12vw;
+    height: 100%;
+  width: 100%;
+  background-image: url("https://img.freepik.com/free-vector/paper-style-luxury-background_23-2148983022.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 12vw;
+  overflow-x: hidden;
+  }
+  .MainDiv::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    mix-blend-mode: overlay;
+  }
+  .MainDiv .profileParent img{
+height: 7vh;
+width: 7vh;
+border: 2px solid yellow;
+border: none;}
+  .navbar{
+    display: none;
+  }
+  
+  .profileParent .profile{
+    margin-top: 2vh;
+ 
+  }
+  .profileParent {
+    /* background-color:#1e1c2a; */
+    height: 12vh;
+    background: rgba(252, 252, 252, 0.103);
+    position: fixed;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+  }
+  .profileParent .Profession {
+display: none;
+  }
+  .MainDiv p{
+     font-size: 10px;
+     font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+  }
+ .SkillTitle{
+font-size: 30px; 
+margin-left: -8vw;
+margin-top: -8vw;
+  } 
+  .childDivs img{
+    height: 30vw;
+    width: 44.5vw;
+  }
+.childDivs .Name{
+  margin-top: 1.5vh;
+}
+.childDivs .GreenLine{
+  margin-top: -45px;
+}
+
+#projects .title{
+font-size: 35px;
+margin-left: 25px;
+}
+#projects .ChildrenProjects{
+ margin-left: -20px; 
+ width: 90vw;
+}
+.ChildrenProjects .insider{
+width:18vw; 
+}
+.MainDiv .phoneProfession{
+  display: block;
+}
+.menu{
+  display: block;
+}
+.MainDiv .myName{
+  color: rgb(104, 103, 103);
+}
+.MainDiv .ig{ 
+  margin-top: 54px;
+}
+}
+
+
+
