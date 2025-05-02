@@ -8,7 +8,7 @@ const Skills = () => {
       value: '1,126',
       img: 'https://banner2.cleanpng.com/20180811/jei/4a1de814e3691021bf8c94671ed712d4.webp',
       date: '2 days ago',
-         obj:'object-cover'
+         obj:'object-contain'
     },
     {
       name: 'js & ts',
@@ -139,12 +139,7 @@ const Skills = () => {
     img: 'https://spinspire.com/sites/default/files/2023-03/1640019487-og-image.png',
     date: '5 days ago',
   },
-  {
-    name: ' kubernetes',
-    value: '1,140',
-    img: 'https://sue.eu/wp-content/uploads/sites/6/2022/09/6.png',
-    date: '5 days ago',
-  },
+
   {
     name: 'r-t-c tool: slack',
     value: '1,140',
@@ -163,7 +158,7 @@ const Skills = () => {
     <>
       <section id="Frontend-skills">
         {/* <h1 className="title -ml-40">Skills</h1> */}
-        <h1 className="Header uppercase pt-20 mt-[15.2vh] mx-12 text-[3.2vh]">
+        <h1 className="Header uppercase pt-20  mx-12 text-[3.2vh]">
   <span className="SkillTitle">front<span>end</span></span>
 </h1>
         {/* Parent Div */}
@@ -172,7 +167,7 @@ const Skills = () => {
             return (
               <div key={index} className="childDivs text-gray-300 -pt-40 h-52  ">
                 <img
-                  className={`h-[20vh] w-[17vw] ${item.obj}  rounded-md my-10 bg-[#474556] border-b-[5px] border-white`}
+                  className={`h-[20vh] w-[17vw] ${item.obj}  rounded-md my-10 bg-white border-b-[5px] border-white`}
                   src={item.img}
                   alt="Skill"
                   

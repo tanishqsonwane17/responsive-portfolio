@@ -15,49 +15,49 @@ const Project = () => {
       Icon:<FaHeadphonesSimple/>,
       backgroundColor:'bg-[#254653]',
       title: 'Spotify clone',
-      description: 'React, Redux, tailwindcss.',
+      description: 'html, css, javascript.',
       link: 'https://github.com/Lucas-Mazzucato/spotify-clone',
     },
     {
       Icon:<FaRegChessKing/>,
       backgroundColor:'bg-[#299e8e]',
       title: 'Chess.com',
-      description: 'React, Redux, tailwindcss..',
+      description: 'Node.js, Ejs, Mongodb.',
       link: 'https://github.com/Lucas-Mazzucato/spotify-clone',
     },
     {
       Icon:<FiShoppingCart/>,
       backgroundColor:'bg-[#ecbf67]',
       title: 'E-commerce',
-      description: 'React, Redux, tailwindcss.',
+      description: 'React, Redux-tool-Kit, tailwindcss.',
       link: 'https://github.com/Lucas-Mazzucato/spotify-clone',
     },
     {
       Icon:<FaRegImage/>,
       backgroundColor:'bg-[#fd2c59]',
       title: 'pinterest clone',
-      description: 'React, Redux, tailwindcss.',
+      description: 'Node.js, Ejs, Mongodb.',
       link: 'https://github.com/Lucas-Mazzucato/spotify-clone',
     },
     {
       Icon:<BsShare/>,
       backgroundColor:'bg-[#e86e4d]',
       title: 'instagram clone',
-      description: 'React, Redux, tailwindcss..',
+      description: 'Node.js, React.js, tailwindcss.',
       link: 'https://github.com/Lucas-Mazzucato/spotify-clone',
     },
     {
       Icon:<BsShare/>,
       backgroundColor:'bg-[#472817]',
       title: 'file sharing',
-      description: 'React, Redux, tailwindcss..',
+      description: 'Node.js, Ejs, Mongodb.',
       link: 'https://github.com/Lucas-Mazzucato/spotify-clone',
     },
     {
       Icon:<SlGameController/>,
       backgroundColor:'bg-[#2e2e30]',
       title: 'snake game clone',
-      description: 'React, Redux, tailwindcss..',
+      description: 'Html, Css, Javascript.',
       link: 'https://github.com/Lucas-Mazzucato/spotify-clone',
     },
     
@@ -76,7 +76,7 @@ const Project = () => {
            {item.Icon}
           </div>
           <h1 id="spotifyClone" className="spotify uppercase mx-20 md:text-gray-200 text-slate-600   tracking-wide text-md font-mono -mt-14 z-1">{item.title}</h1>
-          <p className="text-gray-500 pt-1 text-xs px-20">{item.description}</p>
+          <p className="text-gray-500 pt-1 text-xs px-20 uppercase">{item.description}</p>
           <a href={`${item.link}`}>
           <HiOutlineExternalLink className=' md:text-zinc-200 text-slate-600 float-right text-[3.8vh] -mt-[6.7vh] cursor-pointer'/>
           </a>
@@ -87,7 +87,7 @@ const Project = () => {
              </div>
          
    </section >
-   <h2 className='h-16 w-full flex justify-center pt-11 text-sm'><span className='text-red-500 -mt-2'><span className='text-xl'>&copy;</span><span className='relative -top-[2px]'>Portfolio</span> </span>  <span className='text-zinc-400  font-bold text-xs px-1 -mt-[2px]'> 2025</span></h2>
+   <h2 className=' w-full flex justify-center  text-sm'><span className='text-red-400 -mt-2'><span className='text-xl'>&copy;</span><span className='relative -top-[2px]'>Portfolio</span> </span>  <span className='text-zinc-400  font-bold text-xs px-1 -mt-[2px]'> 2025</span></h2>
 
 </>
   ) 

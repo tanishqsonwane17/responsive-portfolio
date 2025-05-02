@@ -15,7 +15,8 @@ const Sidebar = () => {
   return (
     <>
     
-    <div className='navbar w-[12vw] h-full bg-[#1c1b22] fixed '>
+    <div className='navbar w-[12vw] h-full bg-[#1c1b22] fixed z-50'>
+
         <nav>
         <ul className="flex text-[rgb(196,194,194)] flex-col gap-7 px-10  text-xs">
             <li className="home pt-11 ">
