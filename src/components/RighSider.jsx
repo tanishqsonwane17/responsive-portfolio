@@ -1,7 +1,7 @@
 import React from 'react'
 import Skills from './Skills'
 import dp from '../assets/dp.jpeg'
-import PhoneNavigation from './phoneNavigation'
+import PhoneNavigation from './PhoneNavigation'
 const RighSider = () => {
   return (
     <div className="MainDiv h-full w-full bg-cover bg-center bg-[rgb(20,19,26)] bg-no-repeat  left-[12vw] overflow-x-hidden fixed before:content-[''] before:absolute before:inset-0  before:mix-blend-overlay">
