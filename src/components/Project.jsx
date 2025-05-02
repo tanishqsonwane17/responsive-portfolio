@@ -7,7 +7,7 @@ import { FaRegImage } from "react-icons/fa6";
 import { BsShare } from "react-icons/bs";
 import { CiBadgeDollar } from "react-icons/ci";
 import { SlGameController } from "react-icons/sl";
-import PhoneNavigation from './phoneNavigation';
+import PhoneNavigation from './PhoneNavigation'
 
 const Project = () => {
   const ChildProjects = [
